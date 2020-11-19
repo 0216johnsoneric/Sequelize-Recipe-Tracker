@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Recipes Tracker</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<script src="https://kit.fontawesome.com/bc519c4149.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+	<div id="mainBg">
+		<nav class="navbar navbar-dark ">
+			<div class="top-bar-title">
+				<div class="topbar-responsive-logo"><strong><i class="fas fa-hamburger"></i>&emsp;Recipe Tracker</strong></div>
+			</div>
+			<a class="navbar-brand" href="/logout">Logout</a>
+		</nav>
+
+		{{{ body }}}
+
+		<nav class="navbar fixed-bottom navbar-expand-lg " id="footer">
+			<div class="container justify-content-end">
+				<div class="bottombar-responsive-logo">
+					<strong><i class="fas fa-hamburger"></i>&emsp;&copy; 2020 Chef's Top Sites
+						<div class="btn-group dropup">
+							<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Created By
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="https://github.com/lcalderin12">Luis Calderin</a>
+								<a class="dropdown-item" href="https://github.com/0216johnsoneric">Eric Johnson</a>
+								<a class="dropdown-item" href="https://github.com/MrDawit">Shalom Dawit</a>
+							</div>
+						</div>
+					</strong>
+				</div>
+			</div>
+		</nav>
+
+	</div>
+	{{!-- this link placement fixes dropdown menu functionality  --}}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>

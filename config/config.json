@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "recipe_db",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql"
+   
+  },
+  "test": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "port": 3306,
+    "dialect": ""
+    
+  },
+  "production": {
+    "username": "ic55at4fpzyfpz0x",
+    "password": "wcww3yy36rpv54de",
+    "database": "zuuzu4bcrqn3vfhk",
+    "host": "jsk3f4rbvp8ayd7w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "dialect": "mysql"
+
+  }
+}

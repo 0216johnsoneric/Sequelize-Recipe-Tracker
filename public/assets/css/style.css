@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(45deg,rgb(200, 228, 44),rgb(0, 130, 43), #00ff2a, #f71111, #6e1202);
+}
+
+#mainBg {
+    background-image: url('/assets/images/ingredientsBackground.jpg') ;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1000px 800px;
+
+}
+
+h1, h2 {
+    background: hsla(0, 2%, 53%, 0.8);
+    border-radius: 25px 25px 0 0 ;
+}
+
+h3 {
+    background: hsla(0, 2%, 53%, 0.75);
+}
+
+.jumbotron {
+    background: hsla(0, 57%, 50%, 0.6);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background: hsla(0, 57%, 50%, 0.6);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-emphasis: bold;
+}
+
+.btn {
+    background-color: green;
+    border-color:black;
+}
+
+.btn:hover {
+    background-color:red;
+    border-color: yellow;
+} 
+
+.navbar {
+    background-color: rgb(213, 21, 21);
+}
+
+.card-header {
+    font-weight:bold;
+    width:40%;
+    position:right;
+    background: hsla(0, 2%, 53%, 0.8);
+}
+
+.dropdown-menu {
+    background-color: grey;
+    color:black;
+}
+.dropdown-item:hover {
+    background-color: black;
+    color:white;
+}
+
+label {
+    font-weight:bold;
+    width:50%;
+    position:right;
+    background: hsla(0, 0%, 7%, 0.8);
+    color:white; 
+}
+
+#text_box {
+    background: hsla(0, 2%, 53%, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text_box2 {
+    background: hsla(0, 2%, 53%, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 25px 25px;
+}
+
+#recipe_name {
+    background:rgb(205,133,63);
+    text-align: center;
+}
+
+#recipe_ingr {
+    background:rgb(4, 163, 4);
+    text-align: center;
+}
+
+#recipe_cat {
+    background:rgb(139,69,19);
+    text-align: center;
+}
+
+#recipe_cont {
+    background:rgb(205,133,63);
+    text-align: center;
+    border-radius: 0 0 25px 25px ;
+}
+
+#container_add, #container_all, #container_index {
+    padding-bottom: 100px;
+}
+
+#container_login, #container_signup {
+    background: hsla(0, 57%, 50%, 0.6);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+#btn_signup {
+    color: red;
+    background-color:rgb(46, 38, 38);
+}
+
+#login_link, #contact_link {
+    color: yellow;
+    font-weight: bolder;
+}
+
+#footer { 
+    background-color: rgb(38, 145, 38); 
+} 
