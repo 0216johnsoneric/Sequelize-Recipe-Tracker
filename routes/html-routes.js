@@ -5,19 +5,19 @@ const { get } = require("http");
 
 // Routes
 
-module.exports = function(app) {
-// index route loads view/index.handlebars
-  app.get("/", function(req, res) {
+module.exports = function (app) {
+  // index route loads view/index.handlebars
+  app.get("/", function (req, res) {
 
     if (req.user) {
       res.render("index");
     }
-    else 
-    res.render("signup");
-    
+    else
+      res.render("signup");
+
   });
 
-   app.get("/login", function(req, res) {
+  app.get("/login", function (req, res) {
     // If the user already has an account send them to the members page
     if (req.user) {
       res.render("index");
@@ -25,15 +25,15 @@ module.exports = function(app) {
     res.render("login");
   });
 
-  app.get("/all", function(req, res) {
+  app.get("/all", function (req, res) {
     res.render("all");
   });
 
-  app.get("/add", function(req, res) {
+  app.get("/add", function (req, res) {
     res.render("add");
   });
 
-  app.get("/", isAuthenticated, function(req, res) {
+  app.get("/", isAuthenticated, function (req, res) {
     res.render("index");
   });
 

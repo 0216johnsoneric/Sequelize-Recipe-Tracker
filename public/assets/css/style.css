@@ -3,7 +3,7 @@ body {
 }
 
 #mainBg {
-    background-image: url('/assets/images/ingredientsBackground.jpg') ;  
+    background-image: url('/assets/images/ingredientsBackground.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,9 +12,10 @@ body {
 
 }
 
-h1, h2 {
+h1,
+h2 {
     background: hsla(0, 2%, 53%, 0.8);
-    border-radius: 25px 25px 0 0 ;
+    border-radius: 25px 25px 0 0;
 }
 
 h3 {
@@ -38,40 +39,73 @@ h3 {
 
 .btn {
     background-color: green;
-    border-color:black;
+    border-color: black;
 }
 
 .btn:hover {
-    background-color:red;
+    background-color: red;
     border-color: yellow;
-} 
+}
 
 .navbar {
     background-color: rgb(213, 21, 21);
 }
 
 .card-header {
-    font-weight:bold;
-    width:40%;
-    position:right;
+    font-weight: bold;
+    width: 40%;
+    position: right;
     background: hsla(0, 2%, 53%, 0.8);
 }
 
 .dropdown-menu {
     background-color: grey;
-    color:black;
+    color: black;
 }
+
 .dropdown-item:hover {
     background-color: black;
-    color:white;
+    color: white;
+}
+
+.modal-header {
+    background: linear-gradient(rgb(228, 44, 173),rgb(109, 5, 95));
+}
+
+.modal-title {
+    padding: 0 10px;
+    background: rgb(109, 5, 95);
+    color: yellow;
+}
+
+.modal-body {
+    background: black;
+    /* background: linear-gradient( rgb(200, 228, 44),rgb(0, 130, 43), #00ff2a); */
+    color: red;
+}
+
+.modal-body label {
+    border-radius: 0 25px 0 0;
+    width: 25%;
+    background: rgb(109, 5, 95);
+    color: yellow;
+}
+
+.modal-footer {
+    background-color: rgb(109, 5, 95);
+    color: yellow;
+}
+
+.modal-footer .update {
+    background: grey;
 }
 
 label {
-    font-weight:bold;
-    width:50%;
-    position:right;
+    font-weight: bold;
+    width: 50%;
+    position: right;
     background: hsla(0, 0%, 7%, 0.8);
-    color:white; 
+    color: white;
 }
 
 #text_box {
@@ -88,31 +122,34 @@ label {
 }
 
 #recipe_name {
-    background:rgb(205,133,63);
+    background: rgb(205, 133, 63);
     text-align: center;
 }
 
 #recipe_ingr {
-    background:rgb(4, 163, 4);
+    background: rgb(4, 163, 4);
     text-align: center;
 }
 
 #recipe_cat {
-    background:rgb(139,69,19);
+    background: rgb(139, 69, 19);
     text-align: center;
 }
 
 #recipe_cont {
-    background:rgb(205,133,63);
+    background: rgb(205, 133, 63);
     text-align: center;
-    border-radius: 0 0 25px 25px ;
+    border-radius: 0 0 25px 25px;
 }
 
-#container_add, #container_all, #container_index {
+#container_add,
+#container_all,
+#container_index {
     padding-bottom: 100px;
 }
 
-#container_login, #container_signup {
+#container_login,
+#container_signup {
     background: hsla(0, 57%, 50%, 0.6);
     width: 50%;
     margin-left: auto;
@@ -123,14 +160,16 @@ label {
 
 #btn_signup {
     color: red;
-    background-color:rgb(46, 38, 38);
+    background-color: rgb(46, 38, 38);
 }
 
-#login_link, #contact_link {
+#login_link,
+#contact_link {
     color: yellow;
     font-weight: bolder;
 }
 
-#footer { 
-    background-color: rgb(38, 145, 38); 
-} 
+#footer {
+    background-color: rgb(38, 145, 38);
+}
+

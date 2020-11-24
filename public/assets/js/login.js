@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 $(document).ready(function () {
   // Getting references to our form and inputs
   var loginForm = $("form.login");
